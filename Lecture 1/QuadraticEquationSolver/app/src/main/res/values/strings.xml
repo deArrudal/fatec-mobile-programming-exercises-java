@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quadratic Equation Solver</string>
+    <string name="inputA">a</string>
+    <string name="inputB">b</string>
+    <string name="inputC">c</string>
+    <string name="outputX1">x1</string>
+    <string name="outputX2">x2</string>
+    <string name="compute">Compute</string>
+    <!--Error/Warning messages-->
+    <string name="invalidEquation">Invalid Equation</string>
+    <string name="linearEquation">Linear Equation</string>
+    <string name="singleRoot">Single Root</string>
+    <string name="complexRoots">Complex Roots</string>
+</resources>
