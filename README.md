@@ -6,8 +6,11 @@ A repository containing all exercises developed during the Mobile Programming co
 ## Description
 
 * Lecture 01 - Simple Program using Android Studio
+* Lecture 01 - Projects Driving Range and Fuel Comparison
 
 ## Getting Started
+
+The apk file is located in the "Lecture 02\#ProjectName#\app\build\outputs\apk\androidTest\debug\". 
 
 ### Dependencies
 
@@ -30,6 +33,8 @@ PROJECTS - Mobile PROGRAMMING
 
 * 0.1
     Add Lecture 01
+* 0.2
+    Add Lecture 02
 
 ## License
 

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CompareFuel</string>
+    <string name="title">Compare Fuel</string>
+    <string name="gas_price_label">Gas Price:</string>
+    <string name="gas_price">Gas [$ per liter]</string>
+    <string name="ethanol_price_label">Ethanol Price:</string>
+    <string name="ethanol_price">Ethanol [$ per liter]</string>
+    <string name="button_compare">Compare</string>
+    <string name="choose_ethanol">Fill your gas tank with Ethanol</string>
+    <string name="choose_gas">Fill your gas tank with Gas</string>
+</resources>

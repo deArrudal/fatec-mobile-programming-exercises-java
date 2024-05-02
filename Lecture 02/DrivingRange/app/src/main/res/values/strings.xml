@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DrivingRange</string>
+    <string name="app_title">Driving Range</string>
+    <string name="average_consumption_label">Average Consumption:</string>
+    <string name="average_consumption">[km/l]</string>
+    <string name="fuel_tank_label">Fuel Tank:</string>
+    <string name="fuel_tank">[l]</string>
+    <string name="button_compute">Compute</string>
+    <string name="driving_range">Driving Range [m]: </string>
+</resources>
