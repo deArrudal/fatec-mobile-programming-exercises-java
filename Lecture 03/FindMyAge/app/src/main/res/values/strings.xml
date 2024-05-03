@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FindMyAge</string>
+    <string name="app_title">Find My Age</string>
+    <string name="birthday_label">Enter your birthday:</string>
+    <string name="birthday_day">[day]</string>
+    <string name="birthday_month">[month]</string>
+    <string name="birthday_year">[year]</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="my_age">My age:</string>
+    <string name="invalid_date">Invalid set of inputs</string>
+</resources>
