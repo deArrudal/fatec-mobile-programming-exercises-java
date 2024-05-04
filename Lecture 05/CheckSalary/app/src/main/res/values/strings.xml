@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CheckSalary</string>
+    <string name="app_title">Check Salary</string>
+    <string name="professor_id_label">Identification:</string>
+    <string name="professor_id">001</string>
+    <string name="button_Check">Check</string>
+</resources>

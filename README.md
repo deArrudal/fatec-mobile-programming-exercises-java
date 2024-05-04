@@ -9,10 +9,11 @@ A repository containing all exercises developed during the Mobile Programming co
 * Lecture 02 - Projects Driving Range and Fuel Comparison
 * Lecture 03 - Project Find my Age
 * Lecture 04 - Project Throw dices
+* Lecture 05 - Project Check Salary
 
 ## Getting Started
 
-The apk file is located in the "Lecture 02\#ProjectName#\app\build\outputs\apk\androidTest\debug\". 
+The apk file is located in the "Lecture 02\ProjectName\app\build\outputs\apk\androidTest\debug\". 
 
 ### Dependencies
 
@@ -41,6 +42,8 @@ PROJECTS - Mobile PROGRAMMING
     Add Lecture 03
 * 0.4
     Add Lecture 04
+* 0.5
+    Add Lecture 05
 
 ## License
 
