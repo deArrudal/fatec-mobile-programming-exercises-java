@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ThrowDice</string>
+    <string name="app_title">Throw Dice</string>
+    <string name="dice_number_label">Amount</string>
+    <string name="dice_number_option1">Single (1)</string>
+    <string name="dice_number_option2">Pair (2)</string>
+    <string name="dice_number_option3">Trio (3)</string>
+    <string name="dice_type_label">Type</string>
+    <string name="button_throw">Throw</string>
+    <string name="selector_error">Invalid set of inputs</string>
+</resources>

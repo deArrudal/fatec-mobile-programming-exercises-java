@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginBottom="88dp"
+        android:text="@string/app_title"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewDiceTypeLabel"
+        app:layout_constraintStart_toEndOf="@+id/textViewDiceNumberLabel"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDiceNumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="15dp"
+        android:text="@string/dice_number_label"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewDiceTypeLabel"
+        app:layout_constraintStart_toStartOf="@+id/radioGroupDiceNumber"
+        app:layout_constraintTop_toTopOf="@+id/textViewDiceTypeLabel" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupDiceNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="65dp"
+        app:layout_constraintEnd_toStartOf="@+id/spinnerDiceType"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDiceNumberLabel">
+
+        <RadioButton
+            android:id="@+id/radioButtonOption1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dice_number_option1"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dice_number_option2"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/radioButtonOption3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dice_number_option3"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewDiceTypeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/dice_type_label"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/spinnerDiceType"
+        app:layout_constraintStart_toStartOf="@+id/spinnerDiceType" />
+
+    <Spinner
+        android:id="@+id/spinnerDiceType"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="259dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewDice1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/radioGroupDiceNumber"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonThrow"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/button_throw"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/textViewDice1"
+        app:layout_constraintEnd_toStartOf="@+id/textViewDice1"
+        app:layout_constraintStart_toStartOf="@+id/textViewDice1"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupDiceNumber" />
+
+    <TextView
+        android:id="@+id/textViewDice1"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginBottom="75dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewDice3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewDice2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="55dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewDice3"
+        app:layout_constraintEnd_toStartOf="@+id/textViewDice1"
+        app:layout_constraintStart_toStartOf="@+id/textViewDice1"
+        app:layout_constraintTop_toTopOf="@+id/textViewDice1" />
+
+    <TextView
+        android:id="@+id/textViewDice3"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginBottom="70dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textViewDice2"
+        app:layout_constraintStart_toStartOf="@+id/textViewDice2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

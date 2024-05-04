@@ -8,6 +8,7 @@ A repository containing all exercises developed during the Mobile Programming co
 * Lecture 01 - Simple Program using Android Studio
 * Lecture 02 - Projects Driving Range and Fuel Comparison
 * Lecture 03 - Project Find my Age
+* Lecture 04 - Project Throw dices
 
 ## Getting Started
 
@@ -38,6 +39,8 @@ PROJECTS - Mobile PROGRAMMING
     Add Lecture 02
 * 0.3
     Add Lecture 03
+* 0.4
+    Add Lecture 04
 
 ## License
 
