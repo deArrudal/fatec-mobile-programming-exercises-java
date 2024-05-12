@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">BankAccount</string>
+    <string name="app_title">Bank Account</string>
+    <string name="account_type">Account Type:</string>
+    <string name="account_type_saving">Saving</string>
+    <string name="account_type_special">Special</string>
+    <string name="account_transaction">Transaction:</string>
+    <string-array name="account_transaction_list">
+        <item>Balance</item>
+        <item>Deposit</item>
+        <item>Withdraw</item>
+    </string-array>
+    <string name="amount">Amount:</string>
+    <string name="amount_example">$ 100.00</string>
+    <string name="button_detail">Details</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="output_success">Operation completed</string>
+    <string name="output_fail">Invalid Operation</string>
+</resources>

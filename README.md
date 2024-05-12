@@ -10,6 +10,7 @@ A repository containing all exercises developed during the Mobile Programming co
 * Lecture 03 - Project Find my Age
 * Lecture 04 - Project Throw dices
 * Lecture 05 - Project Check Salary
+* Lecture 06 - Project Bank Account
 
 ## Getting Started
 
@@ -44,6 +45,8 @@ PROJECTS - Mobile PROGRAMMING
     Add Lecture 04
 * 0.5
     Add Lecture 05
+* 0.6
+    Add Lecture 06
 
 ## License
 
