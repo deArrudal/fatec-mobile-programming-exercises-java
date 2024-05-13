@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TicketShow</string>
+    <string name="app_title">Ticket Show</string>
+    <string name="ticket_type">Type:</string>
+    <string name="ticket_type_common">Common</string>
+    <string name="ticket_type_vip">VIP</string>
+    <string name="ticket_vip_type">VIP:</string>
+    <string name="ticket_vip_type_example">Producer</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="ticket_detail">Purchase details:</string>
+    <string name="ticket_final_price">Final Price=</string>
+    <string name="button_return">Return</string>
+</resources>
