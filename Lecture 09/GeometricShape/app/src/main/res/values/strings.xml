@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Geometric Shape</string>
+    <string name="circle">Circle</string>
+    <string name="circle_radius_label">Radius:</string>
+    <string name="circle_radius">1.00</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="rectangle_base_label">Base:</string>
+    <string name="rectangle_base">1.00</string>
+    <string name="rectangle_height_label">Height:</string>
+    <string name="rectangle_height">1.00</string>
+    <string name="button_area">Area</string>
+    <string name="button_perimeter">Perimeter</string>
+</resources>
