@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayoutSenior"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.SeniorFragment">
+
+    <TextView
+        android:id="@+id/textViewSeniorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/swimmer_senior"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSeniorNameLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textViewSeniorNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_vertical"
+        android:text="@string/swimmer_name_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSeniorBirthDate"
+        app:layout_constraintEnd_toStartOf="@+id/editTextSeniorName"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextSeniorName"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/swimmer_name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewSeniorNameLabel"
+        app:layout_constraintTop_toTopOf="@+id/textViewSeniorNameLabel" />
+
+    <TextView
+        android:id="@+id/textViewSeniorBirthDate"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_vertical"
+        android:text="@string/swimmer_birth_date_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSeniorAddress"
+        app:layout_constraintEnd_toStartOf="@+id/editTextSeniorBirthDate"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextSeniorBirthDate"
+        android:layout_width="180dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/swimmer_birth_date"
+        android:importantForAutofill="no"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewSeniorBirthDate"
+        app:layout_constraintTop_toTopOf="@+id/textViewSeniorBirthDate" />
+
+    <TextView
+        android:id="@+id/textViewSeniorAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_vertical"
+        android:text="@string/swimmer_address_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSeniorIsCardiac"
+        app:layout_constraintEnd_toStartOf="@+id/editTextSeniorAddress"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextSeniorAddress"
+        android:layout_width="195dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/swimmer_address"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewSeniorAddress"
+        app:layout_constraintTop_toTopOf="@+id/textViewSeniorAddress" />
+
+    <TextView
+        android:id="@+id/textViewSeniorIsCardiac"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center_vertical"
+        android:text="@string/swimmer_is_cardiac"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSeniorRegister"
+        app:layout_constraintEnd_toStartOf="@+id/checkBoxSeniorIsCardiac"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <CheckBox
+        android:id="@+id/checkBoxSeniorIsCardiac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/textViewSeniorIsCardiac"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewSeniorIsCardiac" />
+
+    <Button
+        android:id="@+id/buttonSeniorRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="178dp"
+        android:text="@string/button_register"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

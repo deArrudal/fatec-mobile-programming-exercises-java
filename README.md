@@ -11,7 +11,8 @@ A repository containing all exercises developed during the Mobile Programming co
 * Lecture 04 - Project Throw dices
 * Lecture 05 - Project Check Salary
 * Lecture 06 - Project Bank Account
-* Lecture 06 - Project Ticket Show
+* Lecture 07 - Project Ticket Show
+* Lecture 08 - Project Swimming Competition
 
 ## Getting Started
 
@@ -50,6 +51,8 @@ PROJECTS - Mobile PROGRAMMING
     Add Lecture 06
 * 0.7
     Add Lecture 07
+* 0.8
+    Add Lecture 08
 
 ## License
 

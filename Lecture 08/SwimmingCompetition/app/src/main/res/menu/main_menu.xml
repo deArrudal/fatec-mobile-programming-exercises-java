@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuItemJunior"
+        android:title="@string/swimmer_junior" />
+    <item
+        android:id="@+id/menuItemAdult"
+        android:title="@string/swimmer_adult" />
+    <item
+        android:id="@+id/menuItemSenior"
+        android:title="@string/swimmer_senior" />
+</menu>

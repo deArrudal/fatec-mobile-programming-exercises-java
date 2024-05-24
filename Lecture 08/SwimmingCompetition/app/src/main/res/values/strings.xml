@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Swimming Competition</string>
+    <string name="swimmer_name_label">Name:</string>
+    <string name="swimmer_name">John Doe</string>
+    <string name="swimmer_birth_date_label">Birth Date:</string>
+    <string name="swimmer_birth_date">1990–01–25</string>
+    <string name="swimmer_address_label">Address:</string>
+    <string name="swimmer_address">Rose Avenue, 68, Downtown</string>
+    <string name="swimmer_junior">Junior</string>
+    <string name="swimmer_year_practice_label">Years of Practice:</string>
+    <string name="swimmer_year_practice">5</string>
+    <string name="swimmer_adult">Adult</string>
+    <string name="swimmer_gym_label">Gym:</string>
+    <string name="swimmer_gym">PowerFit</string>
+    <string name="swimmer_best_time_label">Best Time:</string>
+    <string name="swimmer_best_time">75</string>
+    <string name="swimmer_senior">Senior</string>
+    <string name="swimmer_is_cardiac">Cardiac:</string>
+    <string name="button_register">Register</string>
+</resources>
