@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Register Player</string>
+    <string name="app_title">Welcome!</string>
+    <string name="app_description">Please use the menu to manage the teams and players</string>
+    <string name="team_label">Team</string>
+    <string name="team_id_label">Id:</string>
+    <string name="team_id">001</string>
+    <string name="team_name_label">Name:</string>
+    <string name="team_name">Red</string>
+    <string name="team_city_label">City:</string>
+    <string name="team_city">Chicago</string>
+    <string name="player_label">Player</string>
+    <string name="player_id_label">Id:</string>
+    <string name="player_id">001</string>
+    <string name="player_name_label">Name:</string>
+    <string name="player_name">John Doe</string>
+    <string name="player_birthdate_label">Birth Date:</string>
+    <string name="player_birthdate">1990–01–01</string>
+    <string name="player_height_label">Height:</string>
+    <string name="player_height">1.80</string>
+    <string name="player_weight_label">Weight:</string>
+    <string name="player_weight">75</string>
+    <string name="player_team_label">Team:</string>
+    <string name="database_register">Register</string>
+    <string name="database_update">Update</string>
+    <string name="database_remove">Remove</string>
+    <string name="database_list">List</string>
+    <string name="database_search">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayoutPlayer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.PlayerFragment">
+
+    <TextView
+        android:id="@+id/textViewPlayerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:text="@string/player_label"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewPlayerIdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:text="@string/player_id_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextPlayerId"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlayerTitle" />
+
+    <EditText
+        android:id="@+id/editTextPlayerId"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/player_id"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPlayerSearch"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewPlayerIdLabel"
+        app:layout_constraintTop_toTopOf="@+id/textViewPlayerIdLabel" />
+
+    <Button
+        android:id="@+id/buttonPlayerSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:text="@string/database_search"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewPlayerIdLabel" />
+
+    <TextView
+        android:id="@+id/textViewPlayerNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:text="@string/player_name_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextPlayerName"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlayerIdLabel" />
+
+    <EditText
+        android:id="@+id/editTextPlayerName"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/player_name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewPlayerNameLabel"
+        app:layout_constraintTop_toTopOf="@+id/textViewPlayerNameLabel" />
+
+    <TextView
+        android:id="@+id/textViewPlayerBirthDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:text="@string/player_birthdate_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextPlayerBirthDate"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlayerNameLabel" />
+
+    <EditText
+        android:id="@+id/editTextPlayerBirthDate"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/player_birthdate"
+        android:importantForAutofill="no"
+        android:inputType="date"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewPlayerBirthDateLabel"
+        app:layout_constraintTop_toTopOf="@+id/textViewPlayerBirthDateLabel" />
+
+    <TextView
+        android:id="@+id/textViewPlayerHeightLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:text="@string/player_height_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextPlayerHeight"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlayerBirthDateLabel" />
+
+    <EditText
+        android:id="@+id/editTextPlayerHeight"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/player_height"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toStartOf="@+id/textViewPlayerWeightLabel"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewPlayerHeightLabel"
+        app:layout_constraintTop_toTopOf="@+id/textViewPlayerHeightLabel" />
+
+    <TextView
+        android:id="@+id/textViewPlayerWeightLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:gravity="center_vertical"
+        android:text="@string/player_weight_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextPlayerWeight"
+        app:layout_constraintTop_toTopOf="@+id/textViewPlayerHeightLabel" />
+
+    <EditText
+        android:id="@+id/editTextPlayerWeight"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="@string/player_weight"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewPlayerHeightLabel" />
+
+    <TextView
+        android:id="@+id/textViewPlayerTeam"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:text="@string/player_team_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/spinnerTeam"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlayerHeightLabel" />
+
+    <Spinner
+        android:id="@+id/spinnerTeam"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewPlayerTeam"
+        app:layout_constraintTop_toTopOf="@+id/textViewPlayerTeam" />
+
+    <Button
+        android:id="@+id/buttonPlayerRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/database_register"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPlayerUpdate"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPlayerTeam" />
+
+    <Button
+        android:id="@+id/buttonPlayerRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/database_remove"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonPlayerUpdate"
+        app:layout_constraintTop_toTopOf="@+id/buttonPlayerRegister" />
+
+    <Button
+        android:id="@+id/buttonPlayerUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/database_update"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPlayerRemove"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonPlayerRegister"
+        app:layout_constraintTop_toTopOf="@+id/buttonPlayerRegister" />
+
+    <Button
+        android:id="@+id/buttonPlayerList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/database_list"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPlayerRegister" />
+
+    <TextView
+        android:id="@+id/textViewPlayerOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:gravity="center_vertical"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

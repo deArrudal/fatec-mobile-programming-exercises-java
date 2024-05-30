@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayoutTeam"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.TeamFragment">
+
+    <TextView
+        android:id="@+id/textViewTeamTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:text="@string/team_label"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTeamIdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center_vertical"
+        android:text="@string/team_id_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTeamId"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTeamTitle" />
+
+    <EditText
+        android:id="@+id/editTextTeamId"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/team_id"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toStartOf="@+id/buttonTeamSearch"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewTeamIdLabel"
+        app:layout_constraintTop_toTopOf="@+id/textViewTeamIdLabel" />
+
+    <Button
+        android:id="@+id/buttonTeamSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:text="@string/database_search"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewTeamIdLabel" />
+
+    <TextView
+        android:id="@+id/textViewTeamNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:text="@string/team_name_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTeamName"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTeamIdLabel" />
+
+    <EditText
+        android:id="@+id/editTextTeamName"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/team_name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewTeamNameLabel"
+        app:layout_constraintTop_toTopOf="@+id/textViewTeamNameLabel" />
+
+    <TextView
+        android:id="@+id/textViewTeamCityLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:text="@string/team_city_label"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTeamCity"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTeamNameLabel" />
+
+    <EditText
+        android:id="@+id/editTextTeamCity"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="@string/team_city"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/textViewTeamCityLabel"
+        app:layout_constraintTop_toTopOf="@+id/textViewTeamCityLabel" />
+
+    <Button
+        android:id="@+id/buttonTeamRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/database_register"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/buttonTeamUpdate"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTeamCityLabel" />
+
+    <Button
+        android:id="@+id/buttonTeamRemove"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/database_remove"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonTeamUpdate"
+        app:layout_constraintTop_toTopOf="@+id/buttonTeamRegister" />
+
+    <Button
+        android:id="@+id/buttonTeamUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/database_update"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/buttonTeamRemove"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonTeamRegister"
+        app:layout_constraintTop_toTopOf="@+id/buttonTeamRegister" />
+
+    <Button
+        android:id="@+id/buttonTeamList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/database_list"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTeamRegister" />
+
+    <TextView
+        android:id="@+id/textViewTeamOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:gravity="center_vertical"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
