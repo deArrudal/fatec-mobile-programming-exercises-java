@@ -15,6 +15,7 @@ A repository containing all exercises developed during the Mobile Programming co
 * Lecture 08 - Project Swimming Competition
 * Lecture 09 - Project Geometric Shape
 * Lecture 10 - Project Register Player
+* Lecture 11 - Project Book Rental
 
 ## Getting Started
 
@@ -59,6 +60,8 @@ PROJECTS - Mobile PROGRAMMING
     Add Lecture 09
 * 0.10
     Add Lecture 10
+* 1.00
+    Add Lecture 11
 
 ## License
 

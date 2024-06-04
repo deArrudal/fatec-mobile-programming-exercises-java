@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemBook"
+        android:title="@string/book_label" />
+    <item
+        android:id="@+id/itemMagazine"
+        android:title="@string/magazine_label" />
+    <item
+        android:id="@+id/itemRental"
+        android:title="@string/rental_label" />
+    <item
+        android:id="@+id/itemStudent"
+        android:title="@string/student_label" />
+</menu>
